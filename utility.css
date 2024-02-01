@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ /* utility classes */
+
+ /* flex classes start */
+
+ .d-flex{
+    display: flex;
+
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between ;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-end{
+    justify-content: end;
+}
+
+
+.align-center{
+    align-items: center;
+}
+.align-between{
+    align-items: space-between ;
+}.align-around{
+    align-items: space-around;
+}.align-evenly{
+    align-items: space-evenly;
+}
+.align-end{
+    align-items: end;
+}
+
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+   /* flex classes end  */
+
+   /* margin classes start  */
+
+.ma-1{
+    margin: auto;
+}
+.m-1{
+    margin: 5px;
+}
+.m-2{
+    margin: 10px;
+}
+.m-3{
+    margin: 15px;
+}
+.m-4{
+    margin: 20px;
+}
+
+   /* margin top classes start    */
+
+.mt-1{
+    margin-top: 5px;
+}   
+.mt-2{
+    margin-top: 10px;
+}
+.mt-3{
+    margin-top: 15px;
+}
+.mt-4{
+    margin-top: 30px;
+}
+.mt-4b{
+    margin-top: 100px;
+}
+.mt-5{
+    margin-top: 200px;
+}
+   /* margin top classes end   */
+
+      /* margin right classes start    */
+
+.mr-1{
+    margin-right: 5px;
+}
+.mr-2{
+    margin-right: 10px;
+}
+.mr-3{
+    margin-right: 15px;
+}
+.mr-4{
+    margin-right: 20px;
+}
+.mr-5{
+    margin-right: 30px;
+}
+.mr-5b{
+    margin-right: 60px;
+}
+.mr-6{
+    margin-right: 460px;
+}
+   /* margin right classes end    */
+
+      /* margin bottom classes start    */
+
+.mb-1{
+    margin-bottom: 5px;
+}
+.mb-2{
+    margin-bottom: 10px;
+}
+.mb-3{
+    margin-bottom: 15px;
+}
+.mb-4{
+    margin-bottom: 20px;
+}
+.mb-5{
+    margin-bottom: 30px;
+}
+      /* margin bottom classes end    */
+
+            /* margin left classes start    */
+           
+            .ml-1{
+                margin-left: 5px;
+            }
+            .ml-2{
+                margin-left: 10px;
+            }
+            .ml-3{
+                margin-left: 15px;
+            }
+            .ml-4{
+                margin-left: 30px;
+            }
+            
+            .ml-5{
+                margin-left: 80px;
+            }  
+
+                  /* margin left classes end    */
+
+    /* margin classes end  */
+  
+    /* padding classes start  */
+
+.p-1{
+     padding: 5px;
+}  
+.p-2{
+    padding: 10px;
+}  
+.p-3{
+    padding: 15px;
+}  
+.p-4{
+    padding: 20px;
+}  
+
+.pt-1{
+    padding-top: 5px;
+}  
+.pt-2{
+    padding-top: 10px;
+}  
+.pt-3{
+    padding-top: 15px;
+}  
+.pt-4{
+    padding-top: 20px;
+}  
+  
+.pl-1{
+    padding-left: 5px;
+}
+.pl-2{
+   padding-left: 10px;
+}
+.pl-3{
+    padding-left: 15px;
+}
+
+.pr-1{
+    padding-right: 5px;
+}
+.pr-2{
+    padding-right: 10px;
+}
+.pr-3{
+    padding-right: 15px;
+}
+.pr-4{
+    padding-right: 20px;
+}
+.pr-5{
+    padding-right: 30px;
+}
+  /* padding classes end  */
+
+  /* background color classes start  */
+
+.bg-light{
+     background-color: #ffffff;
+}
+.bg-dark{
+    background-color: #000000;
+}  
+.bg-grey{
+    background-color: #0f0f0f;
+}
+
+.bg-light-grey{
+    background-color: #ffffff0f;
+}
+
+  /* background color classes end  */
+
+  /* text color classes start  */
+
+.text-red{
+    color: red;
+}  
+.text-light{
+    color: #ffffff;
+}  
+.text-dark{
+    color: #000000;
+}
+.text-grey{
+    color: rgba(255, 255, 255, 0.7);
+}
+    /* text color classes end  */
+
+    /* rounded classes start  */
+
+.rounded-sm{
+    border-radius: 10px;
+}
+.rounded-md{
+    border-radius: 20px;
+}  
+.rounded{
+    border-radius: 40px;
+}  
+.rounded-mx{
+    border-radius: 50px;
+}
+    /* rounded classes end  */
+
+    /* transparent classes start  */
+
+.transparent{
+    background-color: transparent;
+}    
+     
+    
+    /* transparent classes end  */
+
+    /* center classes start  */
+
+.center{
+    text-align: center;
+}    
+
+#text-start{
+    text-align: start;
+}
+   /* center classes end  */
+    
+   /* nav link classes start  */
+
+.nav-link{
+    text-decoration: none;
+}   
+
+.logo-text{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    /* font-family: 'futurak'  ; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+    /* font size classes started  */
+ 
+.fs-1{
+    font-size: 20px;
+}
+.fs-2{
+    font-size: 25px;
+}    
+.fs-3{
+    font-size: 30px;
+}
+.fs-4{
+    font-size: 40px;
+}
+
+   /* font size classes ended  */
+
+   /* images width classes start  */
+
+/* .w-1{
+    width: 100px;
+}   */
+  /* gap classes start  */
+
+
+  .gp-1{
+    gap: 40px;
+ }
+ .gp-2{
+    gap: 50px;
+ }
+.gp-3{
+    gap: 60px;
+}
+.gp-4{
+    gap: 50rem;
+}
+
+
+  /* gap classes end  */
+
+    /* position properties classes started  */
+
+    .ab-position-right-one {
+        position: absolute;
+        right: 32px;
+        top: 32px;
+      /* max-width: 70px; */
+      }
+
+    .logo-img{
+        /* flex: 0 0 33.333333%; */
+        width: 500px;
+        /* max-height: 150px; */
+      }
+    
+
+ 
+
+    /* position properties classes started  */
+
+
+
+    .franchise-first-section{
+    position: relative;
+    background-color: #ffffff0f;
+    padding: 70px;
+}
+
+
+
+    /* box class :start  */
+
+.box{
+    
+    width: 400px;
+    height: 300px;     
+}
+.p-box{
+    border: 1px solid #ffffff52;
+}
+.hero-box{
+    width: 430px;
+    height: 530px;
+}
+small{
+    letter-spacing: 0.50rem;
+    color: red;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+    /* box class end  */
+
+   /* image logo classes start  */
+ 
+/* .logo{
+    max-width: 100px;
+}    */
+
+
+
+   /* image logo classes end  */
+
+
+   /* width classes start  */
+
+.w-1{
+    width: 350px;
+    height: 200px;
+}
+
+.w-3{
+    width: 300px;
+    height: 300px;
+}
+   /* width classes end  */
+
+   /* form class start  */
+
+.form-group{
+    border: 1px solid #ced4da !important;
+    height: 55px; 
+    width: 40%;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    color: #0f0f0f;
+}
+
+
+   /* form class end  */
+
+
+   /* hover classes start  */
+
+.star-red:hover{
+    background-color: red;
+}
+
+
+   /* hover classes end */

@@ -1,0 +1,56 @@
+
+   /* navbar styling start  */
+
+#navbar-items{
+     gap: 30px;
+}
+
+#navbar{
+    padding: 0px 15px;
+}
+#franchise{
+    border: 1px solid white ;
+    background-color: transparent;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#order-online{
+     background-color: red;
+     border: 0px;
+     font-size: 20px;
+     padding: 20px 30px;
+     cursor: pointer;
+}
+#btn-icon{
+    padding: 5px 7px;
+}
+#main-logo{
+    width: 165px;
+}
+#red{
+    color: red;   
+}
+#children-images{
+    gap: 30px;
+}
+#hero-banner:hover{
+    color: transparent;
+}
+:root{
+   --red:var(#ed1c24)
+   --red:var()
+}
+#h3{
+    letter-spacing: normal;
+}
+#follow-btn{
+    border: 1px solid red;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+#main-img{
+   width: 1680px;
+    height: 800px;
+}
