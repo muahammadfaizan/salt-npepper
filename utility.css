@@ -125,8 +125,9 @@
     /* margin classes end  */
   
     /* padding classes start  */
+
 .pa-1{
-    padding: auto;
+    padding: 10px 80px 80px 10px;
 }
 .p-1{
      padding: 5px 10rem 10rem 5px ;
@@ -160,6 +161,9 @@
 .pr-2{
     padding-right: 20px;
 }
+.pr-3{
+    padding-right: 100px;
+}
 .pl-1{
     padding-left: 10px;
 }
@@ -167,7 +171,7 @@
     padding-left: 20px;
 }
 .pl-3{
-    padding-left: 30px;
+    padding-left: 100px;
 }
 
 
@@ -332,15 +336,15 @@
 
 .box{
     
-    width: 240px;
+    width: 350px;
     height: 300px;     
 }
 .p-box{
     border: 1px solid #ffffff52;
 }
 .hero-box{
-    width: 430px;
-    height: 530px;
+    width: 300px;
+    height: 400px;
 }
 small{
     letter-spacing: 0.50rem;
@@ -360,8 +364,8 @@ small{
     height: 140px;
 }
 .w-2{
-    width: 150%;
-    height: 150px;
+    width: 280px;
+    height: 200px;
 }
 .w-3{
     width: 100%;
@@ -369,8 +373,8 @@ small{
 }
 
 .w-4{
-    width: 420px;
-    height: 250px;
+    width: 600px;
+    height: 350px;
 }
    /* width classes end  */
 
@@ -378,8 +382,8 @@ small{
 
 .form-group{
     border: 1px solid #ced4da !important;
-    height: 60px; 
-    width: 700px;
+    height: 50px; 
+    width: 500px;
     box-sizing: border-box;
     border-radius: 0.5rem;
     color: #0f0f0f;
